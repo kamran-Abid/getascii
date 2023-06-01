@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.main_div {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block_div{
+    background-color: #fefefe;
+    max-width: 400px;
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #3a3a3a;
+}
+.heading{
+    font-size: 3.5rem;
+    color: #5d80f2;
+    margin-bottom: 10px;
+}
+.keyInput{
+    font-size: 5rem;
+    border: none;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.keyInput:focus{ 
+    outline: none;  
+    caret-color: transparent;
+}
+.output{
+    display: flex;
+    justify-content: space-around;
+    min-width: 400px;
+}
+.output .title {
+    color: #5d80f2;
+    font-size: 1.5rem;
+}
+.output .value{
+    font-size: 3rem;
+}

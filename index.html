@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <h1 class="heading">Press any key</h1>
+        <div class="block_div">
+            <input type="text" size="1" class="keyInput" id="keyInput" onkeypress="checkASCII(event)" autofocus>
+            <div class="output">
+                <span>
+                    <span class="title">ASCII Code </span><br/>
+                    <span id="asciiValue" class="value"></span>
+                </span>
+                <span>
+                    <span class="title">Key ASCII </span><br/>
+                    <span id="keyAscii" class="value"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
